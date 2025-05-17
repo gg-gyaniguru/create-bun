@@ -1,12 +1,18 @@
 # server
 
-To install dependencies:
+to install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+to update dependencies:
+
+```bash
+bun update --latest
+```
+
+to run:
 
 ```bash
 bun run dev
