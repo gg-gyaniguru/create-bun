@@ -7,3 +7,36 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+[data-sonner-toast] {
+    transition-property: all !important;
+    transition-duration: .3s !important;
+    transition-timing-function: ease-in-out !important;
+}
+
+[data-sonner-toast] [data-icon] {
+    display: none !important;
+}
+
+[data-sonner-toast][data-styled="true"] {
+    padding: .9rem 1rem !important;
+    font-size: 1rem !important;
+    border-radius: .75rem !important;
+    border: unset !important;
+}
+
+[data-sonner-toast][data-styled=true] [data-title] {
+    font-weight: 400 !important;
+}
+
+[data-rich-colors=true][data-sonner-toast][data-type=success] {
+    color: #FFFFFF !important;
+    background-color: #6366F1 !important;
+    border-color: #FFFFFF00 !important;
+}
+
+[data-rich-colors=true][data-sonner-toast][data-type=error] {
+    color: #FFFFFF !important;
+    background-color: #F43F5E !important;
+    border-color: #FFFFFF00 !important;
+}
