@@ -5,8 +5,11 @@ import upload from 'express-fileupload';
 const server = express();
 const router = Router();
 
+const {SERVER} = process.env;
+
 server.use(cors({
-    origin: 'http://localhost:6090',
+    // origin: 'http://localhost:6090',
+    origin: `http://${SERVER}:6090`,
     methods: ['GET', 'POST', 'PUT', 'DELETE']
 }));
 server.use(express.json());
