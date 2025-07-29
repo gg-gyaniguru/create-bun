@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Provider} from "@/configurations/state.js";
+import {Provider} from '@/configurations/state.js';
 
 const State = ({children}) => {
 

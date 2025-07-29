@@ -1,4 +1,4 @@
-import {ApolloClient, InMemoryCache} from "@apollo/client";
+import {ApolloClient, InMemoryCache} from '@apollo/client';
 
 const {VITE_SERVER} = import.meta.env;
 

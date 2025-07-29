@@ -1,5 +1,5 @@
 import {Server} from 'socket.io';
-import http from "./http.js";
+import http from './http.js';
 
 const {SERVER} = process.env;
 

@@ -1,4 +1,4 @@
-import {verifyAccessToken} from "../utilities/jsonwebtoken.js";
+import {verifyAccessToken} from '@/utilities/jsonwebtoken.js';
 
 const verify = (request, response, next) => {
     try {

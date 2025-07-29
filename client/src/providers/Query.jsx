@@ -1,5 +1,5 @@
 import {QueryClientProvider as Provider} from '@tanstack/react-query';
-import query from "@/configurations/query.js";
+import query from '@/configurations/query.js';
 
 const Query = ({children}) => {
     return (
