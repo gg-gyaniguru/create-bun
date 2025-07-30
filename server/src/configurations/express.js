@@ -23,5 +23,5 @@ server.use((_, response) => {
     return response.status(404).json({message: 'route not found'});
 });
 
-export default server;
 export {router};
+export default server;
