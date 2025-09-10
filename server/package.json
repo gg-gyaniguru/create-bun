@@ -9,10 +9,10 @@
     "start": "bun run src/server.js"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.19"
+    "@types/bun": "^1.2.21"
   },
   "peerDependencies": {
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "@apollo/server": "^5.0.0",
@@ -22,7 +22,7 @@
     "express-fileupload": "^1.5.2",
     "graphql": "^16.11.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.16.4",
+    "mongoose": "^8.18.1",
     "nanoid": "^5.1.5",
     "socket.io": "^4.8.1"
   }
